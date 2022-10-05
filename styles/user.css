@@ -1,0 +1,117 @@
+.sidebar {
+  width: 252px;
+}
+
+.sidebar__innerwrap {
+  width: 232px;
+}
+
+.user-contents {
+  width: calc(100% - 252px);
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.userbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.userbox__pic {
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.userbox__pic img {
+  width: 100%;
+}
+
+.userbox__name {
+  position: relative;
+  padding: 0 20px;
+}
+
+.userbox__id {
+  font-size: 2rem;
+  margin-bottom: 3px;
+}
+
+.userbox__remark {
+  margin-bottom: 18px;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.userbox__follow button {
+  padding: 9px 30px 5px;
+  min-width: 164px;
+  text-align: center;
+  font-size: 1rem;
+  background: #fe2c55;
+  border: 1px solid #fe2c55;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.userbox__follow button:hover {
+  background: #ea0d39;
+}
+
+.infobox {
+  margin-bottom: 30px;
+}
+
+.infobox__connect {
+  margin-bottom: 16px;
+}
+
+.infobox__connect .num {
+  font-weight: 900;
+  margin-right: 2px;
+}
+
+.infobox__connect .text {
+  color: #989898;
+  margin-right: 26px;
+}
+
+.videobox {
+  padding: 10px 0;
+  border-top: 1px solid #dbdbda;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.videobox__article {
+  width: 49%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.videobox__video {
+  width: 100%;
+
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.videobox__play {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: white;
+}
