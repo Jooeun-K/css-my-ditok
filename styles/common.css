@@ -241,27 +241,27 @@ a {
 }
 
 .mainNav__li:first-child .mainNav__li__icon {
-  background-image: url('/src/images/home.svg');
+  background-image: url('../src/images/home.svg');
 }
 
 .mainNav__li.on:first-of-type .mainNav__li__icon {
-  background-image: url('/src/images/home_on.svg');
+  background-image: url('../src/images/home_on.svg');
 }
 
 .mainNav__li:nth-child(2) .mainNav__li__icon {
-  background-image: url('/src/images/following.svg');
+  background-image: url('../src/images/following.svg');
 }
 
 .mainNav__li.on:nth-child(2) .mainNav__li__icon {
-  background-image: url('/src/images/following_on.svg');
+  background-image: url('../src/images/following_on.svg');
 }
 
 .mainNav__li:last-child .mainNav__li__icon {
-  background-image: url('/src/images/live.svg');
+  background-image: url('../src/images/live.svg');
 }
 
 .mainNav__li.on:last-child .mainNav__li__icon {
-  background-image: url('/src/images/live_on.svg');
+  background-image: url('../src/images/live_on.svg');
 }
 
 .mainNav__li__txt {
