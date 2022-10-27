@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DiTok</title>
+    <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/user.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__innerWrap">
+        <h1 class="header__innerWrap__logoBox">
+          <a href="../">
+            <img src="../src/images/logo.svg" alt="DiTok" />
+          </a>
+        </h1>
+        <div class="header__innerWrap__searchBox">
+          <form action="" class="searchForm">
+            <input
+              type="text"
+              placeholder="계정 및 동영상 검색"
+              class="searchForm__input"
+            />
+            <button class="searchForm__btn">
+              <img src="../src/images/search.svg" alt="검색하기" />
+            </button>
+          </form>
+        </div>
+        <div class="header__innerWrap__userBox">
+          <div class="userBox__uploadBtn">
+            <a href="">
+              <span class="userBox__uploadBtn__icon">
+                <img src="../src/images/plus.svg" alt="새 동영상 올리기" />
+              </span>
+              <span class="userBox__uploadBtn__txt">업로드</span>
+            </a>
+          </div>
+          <div class="userBox__msgBtn">
+            <a href="">
+              <span class="userBox__msgBtn__icon">
+                <img src="../src/images/message.svg" alt="메시지" />
+              </span>
+            </a>
+          </div>
+          <div class="userBox__notiBtn">
+            <a href="">
+              <span class="userBox__notiBtn__icon">
+                <img src="../src/images/notice.svg" alt="알림" />
+              </span>
+            </a>
+          </div>
+          <div class="userBox__userBtn">
+            <div class="userImage">
+              <span>주은</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="wrapper">
+        <section class="sidebar">
+          <h1 class="soundOnly">메뉴</h1>
+          <div class="sidebar__innerwrap">
+            <nav class="sidebar__mainNavBox">
+              <ul class="mainNav">
+                <li class="mainNav__li">
+                  <a href="">
+                    <span class="mainNav__li__icon"> </span>
+                    <h2 class="mainNav__li__txt">추천</h2>
+                  </a>
+                </li>
+                <li class="mainNav__li">
+                  <a href="">
+                    <span class="mainNav__li__icon"> </span>
+                    <h2 class="mainNav__li__txt">팔로잉</h2>
+                  </a>
+                </li>
+                <li class="mainNav__li">
+                  <a href="">
+                    <span class="mainNav__li__icon"> </span>
+                    <h2 class="mainNav__li__txt">라이브</h2>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="sidebar__recommend">
+              <h3 class="recommend__title">추천 계정</h3>
+              <div class="recommend__items">
+                <div class="recommendItem">
+                  <div class="recommendItem__image">
+                    <img
+                      src="../src/images/profile1.png"
+                      alt="사용자 프로필 사진"
+                    />
+                  </div>
+                  <div class="recommendItem__txt">
+                    <p class="recommendItem__txt__id">
+                      abc_trip
+                      <span class="check_icon"
+                        ><img src="../src/images/check-circle.svg" alt="check"
+                      /></span>
+                    </p>
+                    <p class="recommendItem__txt__name">여행가 ABC_TRIP</p>
+                  </div>
+                </div>
+                <div class="recommendItem">
+                  <div class="recommendItem__image">
+                    <img
+                      src="../src/images/profile2.png"
+                      alt="사용자 프로필 사진"
+                    />
+                  </div>
+                  <div class="recommendItem__txt">
+                    <p class="recommendItem__txt__id">
+                      official.dochi
+                      <span class="check_icon"
+                        ><img src="../src/images/check-circle.svg" alt="check"
+                      /></span>
+                    </p>
+                    <p class="recommendItem__txt__name">Cute hedgehog</p>
+                  </div>
+                </div>
+                <div class="recommendItem">
+                  <div class="recommendItem__image">
+                    <img
+                      src="../src/images/profile3.png"
+                      alt="사용자 프로필 사진"
+                    />
+                  </div>
+                  <div class="recommendItem__txt">
+                    <p class="recommendItem__txt__id">
+                      photo_jen
+                      <span class="check_icon"
+                        ><img src="../src/images/check-circle.svg" alt="check"
+                      /></span>
+                    </p>
+                    <p class="recommendItem__txt__name">Photographer Jenny</p>
+                  </div>
+                </div>
+                <div class="recommendItem">
+                  <div class="recommendItem__image">
+                    <img
+                      src="../src/images/profile4.png"
+                      alt="사용자 프로필 사진"
+                    />
+                  </div>
+                  <div class="recommendItem__txt">
+                    <p class="recommendItem__txt__id">
+                      cloud
+                      <span class="check_icon"
+                        ><img src="../src/images/check-circle.svg" alt="check"
+                      /></span>
+                    </p>
+                    <p class="recommendItem__txt__name">오늘의 하늘</p>
+                  </div>
+                </div>
+                <div class="recommendItem">
+                  <div class="recommendItem__image">
+                    <img
+                      src="../src/images/profile2.png"
+                      alt="사용자 프로필 사진"
+                    />
+                  </div>
+                  <div class="recommendItem__txt">
+                    <p class="recommendItem__txt__id">
+                      daily.dochi
+                      <span class="check_icon"
+                        ><img src="../src/images/check-circle.svg" alt="check"
+                      /></span>
+                    </p>
+                    <p class="recommendItem__txt__name">Cute hedgehog daily log</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar__tags">
+              <h3 class="tags__title">둘러보기</h3>
+              <div class="tags__contents">
+                <ul class="tags__contents__list">
+                  <li class="tagsItem">
+                    <a href="">추석</a>
+                  </li>
+                  <li class="tagsItem">
+                    <a href="">반려동물</a>
+                  </li>
+                  <li class="tagsItem">
+                    <a href="">고슴도치</a>
+                  </li class="tagsItem">
+                  <li class="tagsItem">
+                    <a href="">강릉여행</a>
+                  </li>
+                  <li class="tagsItem">
+                    <a href="">하늘</a>
+                  </li>
+                  <li class="tagsItem">
+                    <a href="">cloud</a>
+                  </li>
+                  <li class="tagsItem">
+                    <a href="">travel</a>
+                  </li>
+                  <li class="tagsItem">
+                    <a href="">autumn</a>
+                  </li>
+                  <li class="tagsItem">
+                    <a href="">feel_my_rhythm</a>
+                  </li>
+                  <li class="tagsItem">
+                    <a href="">OMG</a>
+                  </li>
+                  <li class="tagsItem">
+                    <a href="">photographer</a>
+                  </li>
+                  <li class="tagsItem">
+                    <a href="">pic_of_trip</a>
+                  </li>
+                  <li class="tagsItem">
+                    <a href="">Korea</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <footer class="sidebar__footer">
+              <address class="footer__address">
+                서울특별시 구로구 디지털로 300(구로동)<br>패스트파이브 구로점 13층
+              </address>
+              <p class="footer__copyright">© 2022 DiTok</p>
+            </footer>
+          </div>
+        </section>
+        <section class="contents user-contents">
+          <h1 class="soundOnly">photo_jen 유저의 동영상 목록</h1>
+          <div class="userbox">
+            <div class="userbox__pic">
+              <img src="../src/images/profile3.png" alt="photo_jen">
+            </div>
+            <div class="userbox__name">
+              <h2 class="userbox__id">
+                photo_jen
+              </h2>
+              <p class="userbox__remark">
+                Photographer Jenny
+              </p>
+              <div class="userbox__follow">
+                <button class="userbox__follow__button">
+                  팔로우
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="infobox">
+            <div class="infobox__connect">
+              <span class="num">254</span>
+              <span class="text">팔로잉</span>
+              <span class="num">62.2K</span>
+              <span class="text">팔로워</span>
+              <span class="num">12.8M</span>
+              <span class="text">좋아요</span>
+            </div>
+            <div class="infobox__introduce">
+              info@jenny.com | shop.jenny.com
+            </div>
+          </div>
+          <div class="videobox">
+            <article class="videobox__article">
+              <video class="videobox__video" controls autoplay muted>
+                <source src="../src/videos/001.mp4" type="video/mp4">
+              </video>
+              <span class="videobox__play">
+                16.2k
+              </span>
+            </article>
+            <article class="videobox__article">
+              <video class="videobox__video" controls muted>
+                <source src="../src/videos/002.mp4" type="video/mp4">
+              </video>
+              <span class="videobox__play">
+                16.2k
+              </span>
+            </article>
+            <article class="videobox__article">
+              <video class="videobox__video" controls muted>
+                <source src="../src/videos/003.mp4" type="video/mp4">
+              </video>
+              <span class="videobox__play">
+                16.2k
+              </span>
+            </article>
+            <article class="videobox__article">
+              <video class="videobox__video" controls muted>
+                <source src="../src/videos/004.mp4" type="video/mp4">
+              </video>
+              <span class="videobox__play">
+                16.2k
+              </span>
+            </article>
+            <article class="videobox__article">
+              <video class="videobox__video" controls muted>
+                <source src="../src/videos/001.mp4" type="video/mp4">
+              </video>
+              <span class="videobox__play">
+                16.2k
+              </span>
+            </article>
+            <article class="videobox__article">
+              <video class="videobox__video" controls muted>
+                <source src="../src/videos/002.mp4" type="video/mp4">
+              </video>
+              <span class="videobox__play">
+                16.2k
+              </span>
+            </article>
+            <article class="videobox__article">
+              <video class="videobox__video" controls muted>
+                <source src="../src/videos/003.mp4" type="video/mp4">
+              </video>
+              <span class="videobox__play">
+                16.2k
+              </span>
+            </article>
+            <article class="videobox__article">
+              <video class="videobox__video" controls muted>
+                <source src="../src/videos/004.mp4" type="video/mp4">
+              </video>
+              <span class="videobox__play">
+                16.2k
+              </span>
+            </article>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
