@@ -261,7 +261,7 @@ a {
 }
 
 .mainNav__li.on:last-child .mainNav__li__icon {
-  background-image: url('../src/images/live_on.svg');
+  background-image: url('/src/images/live_on.svg');
 }
 
 .mainNav__li__txt {
