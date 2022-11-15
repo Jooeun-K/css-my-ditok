@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ditok - abc_trip</title>
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/common.css" />
+    <link rel="stylesheet" href="../styles/user.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner-wrap">
+        <h1 class="header__logo-box">
+          <a href="/">
+            <img src="../src/images/logo.svg" alt="DiTok" />
+          </a>
+        </h1>
+        <div class="header__search-box">
+          <div class="search-form">
+            <input
+              type="text"
+              placeholder="계정 및 동영상 검색"
+              class="search-form__input"
+            />
+            <button class="search-form__btn">
+              <img src="../src/images/search.svg" alt="검색하기" />
+            </button>
+          </div>
+        </div>
+        <div class="header__user-box">
+          <div class="user-box__upload-btn">
+            <a href="">
+              <span class="user-box__upload-btn__icon">
+                <img src="../src/images/plus.svg" alt="새 동영상 올리기" />
+              </span>
+              <span class="user-box__upload-btn__text">업로드</span>
+            </a>
+          </div>
+          <div class="user-box__message-btn">
+            <a href="">
+              <span class="user-box__message-btn__icon">
+                <img src="../src/images/message.svg" alt="메시지" />
+              </span>
+            </a>
+          </div>
+          <div class="user-box__noti-btn">
+            <a href="">
+              <span class="user-box__noti-btn__icon">
+                <img src="../src/images/notice.svg" alt="알림" />
+              </span>
+            </a>
+          </div>
+          <div class="user-box__user-btn">
+            <a href="">
+              <div class="user-box__user-btn__profile">
+                <span>주은</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="wrapper">
+        <section class="sidebar">
+          <div class="sidebar__inner-wrap">
+            <h2 class="sound-only">메뉴</h2>
+            <nav class="sidebar__gnb">
+              <ul class="gnb">
+                <li class="gnb__item">
+                  <a href="">
+                    <span class="gnb__item__icon"> </span>
+                    <h3 class="gnb__item__text">추천</h3>
+                  </a>
+                </li>
+                <li class="gnb__item">
+                  <a href="">
+                    <span class="gnb__item__icon"> </span>
+                    <h3 class="gnb__item__text">팔로잉</h3>
+                  </a>
+                </li>
+                <li class="gnb__item">
+                  <a href="">
+                    <span class="gnb__item__icon"> </span>
+                    <h3 class="gnb__item__text">라이브</h3>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="sidebar__recommend">
+              <h3 class="recommend__title">추천 계정</h3>
+              <div class="recommend__items">
+                <div class="recommend-item">
+                  <div class="recommend-item__image">
+                    <img
+                      src="../src/images/profile1.png"
+                      alt="abc_trip의 프로필 사진"
+                    />
+                  </div>
+                  <div class="recommend-item__text">
+                    <p class="recommend-item__text__id">
+                      abc_trip
+                      <span class="check-icon"
+                        ><img src="../src/images/check-circle.svg" alt="check"
+                      /></span>
+                    </p>
+                    <p class="recommend-item__text__name">여행가 ABC_TRIP</p>
+                  </div>
+                </div>
+                <div class="recommend-item">
+                  <div class="recommend-item__image">
+                    <img
+                      src="../src/images/profile2.png"
+                      alt="official.dochi의 프로필 사진"
+                    />
+                  </div>
+                  <div class="recommend-item__text">
+                    <p class="recommend-item__text__id">
+                      official.dochi
+                      <span class="check-icon"
+                        ><img src="../src/images/check-circle.svg" alt="check"
+                      /></span>
+                    </p>
+                    <p class="recommend-item__text__name">Cute hedgehog</p>
+                  </div>
+                </div>
+                <div class="recommend-item">
+                  <div class="recommend-item__image">
+                    <img
+                      src="../src/images/profile3.png"
+                      alt="photo_jen의 프로필 사진"
+                    />
+                  </div>
+                  <div class="recommend-item__text">
+                    <p class="recommend-item__text__id">photo_jen</p>
+                    <p class="recommend-item__text__name">Photographer Jenny</p>
+                  </div>
+                </div>
+                <div class="recommend-item">
+                  <div class="recommend-item__image">
+                    <img
+                      src="../src/images/profile4.png"
+                      alt="cloud의 프로필 사진"
+                    />
+                  </div>
+                  <div class="recommend-item__text">
+                    <p class="recommend-item__text__id">
+                      cloud
+                      <span class="check-icon"
+                        ><img src="../src/images/check-circle.svg" alt="check"
+                      /></span>
+                    </p>
+                    <p class="recommend-item__text__name">오늘의 하늘</p>
+                  </div>
+                </div>
+                <div class="recommend-item">
+                  <div class="recommend-item__image">
+                    <img
+                      src="../src/images/profile2.png"
+                      alt="daily.dochi의 프로필 사진"
+                    />
+                  </div>
+                  <div class="recommend-item__text">
+                    <p class="recommend-item__text__id">daily.dochi</p>
+                    <p class="recommend-item__text__name">
+                      Cute hedgehog daily log
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sidebar__tags">
+              <h3 class="tags__title">둘러보기</h3>
+              <div class="tags__contents">
+                <ul class="tag-list">
+                  <li class="tag-item">
+                    <a href="">크리스마스</a>
+                  </li>
+                  <li class="tag-item">
+                    <a href="">추석</a>
+                  </li>
+                  <li class="tag-item">
+                    <a href="">반려동물</a>
+                  </li>
+                  <li class="tag-item">
+                    <a href="">제주도여행</a>
+                  </li>
+                  <li class="tag-item">
+                    <a href="">국내여행</a>
+                  </li>
+                  <li class="tag-item">
+                    <a href="">바다</a>
+                  </li>
+                  <li class="tag-item">
+                    <a href="">Ocean</a>
+                  </li>
+                  <li class="tag-item">
+                    <a href="">hedgehog</a>
+                  </li>
+                  <li class="tag-item">
+                    <a href="">travel</a>
+                  </li>
+                  <li class="tag-item">
+                    <a href="">Seoul</a>
+                  </li>
+                  <li class="tag-item">
+                    <a href="">trip-to-abc</a>
+                  </li>
+                  <li class="tag-item">
+                    <a href="">여행일기</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <footer class="sidebar__footer">
+              <address class="footer__address">
+                서울특별시 구로구 디지털로 300(구로동)<br />패스트파이브 구로점
+                12층
+              </address>
+              <p class="footer__copyright">© 2022 Ditok</p>
+            </footer>
+          </div>
+        </section>
+        <section class="contents">
+          <h2 class="sound-only">CLOUD가 게시한 동영상 목록</h2>
+          <div class="user-box">
+            <div class="user-box__profile">
+              <img src="../src/images/profile4.png" alt="cloud" />
+            </div>
+            <div class="user-box__name">
+              <h3 class="user-box__id">cloud</h3>
+              <p class="user-box__remark">오늘의 하늘</p>
+              <div class="user-box__follow">
+                <button class="user-box__follow__button">팔로우</button>
+              </div>
+            </div>
+          </div>
+          <div class="info-box">
+            <div class="info-box__connect">
+              <span class="num">3</span>
+              <span class="text">팔로잉</span>
+              <span class="num">62.5K</span>
+              <span class="text">팔로워</span>
+              <span class="num">120.3K</span>
+              <span class="text">좋아요</span>
+            </div>
+            <div class="info-box__introduce">
+              오늘의 하늘
+              <p class="contact">
+                <a href="">
+                  <span class="clip-icon">
+                    <img src="../src/images/clip.svg" alt="clip-icon" />
+                  </span>
+                  business_cloud@gmail.com
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="video-box">
+            <article class="video-box__article">
+              <video class="video-box__video" autoplay muted>
+                <source src="../src/videos/user3/001.mp4" type="video/mp4" />
+              </video>
+              <span class="video-box__play"> 16.2K </span>
+            </article>
+            <article class="video-box__article">
+              <video class="video-box__video">
+                <source src="../src/videos/user3/002.mp4" type="video/mp4" />
+              </video>
+              <span class="video-box__play"> 16.2K </span>
+            </article>
+            <article class="video-box__article">
+              <video class="video-box__video">
+                <source src="../src/videos/user3/003.mp4" type="video/mp4" />
+              </video>
+              <span class="video-box__play"> 16.2K </span>
+            </article>
+            <article class="video-box__article">
+              <video class="video-box__video">
+                <source src="../src/videos/user3/004.mp4" type="video/mp4" />
+              </video>
+              <span class="video-box__play"> 16.2K </span>
+            </article>
+            <article class="video-box__article">
+              <video class="video-box__video">
+                <source src="../src/videos/user3/005.mp4" type="video/mp4" />
+              </video>
+              <span class="video-box__play"> 16.2K </span>
+            </article>
+            <article class="video-box__article">
+              <video class="video-box__video">
+                <source src="../src/videos/user3/006.mp4" type="video/mp4" />
+              </video>
+              <span class="video-box__play"> 16.2K </span>
+            </article>
+            <article class="video-box__article">
+              <video class="video-box__video">
+                <source src="../src/videos/user3/007.mp4" type="video/mp4" />
+              </video>
+              <span class="video-box__play"> 16.2K </span>
+            </article>
+            <article class="video-box__article">
+              <video class="video-box__video">
+                <source src="../src/videos/user3/008.mp4" type="video/mp4" />
+              </video>
+              <span class="video-box__play"> 16.2K </span>
+            </article>
+            <article class="video-box__article">
+              <video class="video-box__video">
+                <source src="../src/videos/user3/009.mp4" type="video/mp4" />
+              </video>
+              <span class="video-box__play"> 16.2K </span>
+            </article>
+            <article class="video-box__article">
+              <video class="video-box__video">
+                <source src="../src/videos/user3/010.mp4" type="video/mp4" />
+              </video>
+              <span class="video-box__play"> 16.2K </span>
+            </article>
+            <article class="video-box__article">
+              <video class="video-box__video">
+                <source src="../src/videos/user3/011.mp4" type="video/mp4" />
+              </video>
+              <span class="video-box__play"> 16.2K </span>
+            </article>
+            <article class="video-box__article">
+              <video class="video-box__video">
+                <source src="../src/videos/user3/012.mp4" type="video/mp4" />
+              </video>
+              <span class="video-box__play"> 16.2K </span>
+            </article>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
